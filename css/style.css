@@ -165,3 +165,140 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
 }
+
+img{
+    width: 40px;
+    height:30px;
+    object-fit:fill;
+    margin:5px;
+    padding:5px;
+}
+a{
+    font-family:'Raleway'; 
+}
+.nav{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.logo_container{
+    float:left;
+    justify-content: center;
+}
+
+.navigation_link_container{
+    display: flex;
+    float: right;
+    margin: 10px;
+    justify-content:center;
+    flex-direction: row;
+}
+.item_link{
+    margin:20px;
+}
+a:hover{
+    text-decoration: overline #0065FC;
+    color: #0065FC;
+}
+.sub-title{
+    font-size:15px;
+    margin:4px;
+}
+.search-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.search_form {
+    display: flex;
+    flex-direction:row;
+    margin:10px 10px 10px 0px;
+    
+  }
+.search_label{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:#F2F2F2;
+    width:50px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.search_input{
+    font-size:15px;
+    font-weight:bold;
+    color:rgb(0, 0, 0);
+    height:50px;
+    width:200px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom:1px #F2F2F2 solid ;
+}
+
+.search_button{
+    border-top-right-radius:10%;
+    border-bottom-right-radius:10%;
+    border-width: 0px;
+    background-color:#0065FC;
+    height:50px;
+    width:120px;
+    font-size:15px;
+    font-weight:bolder;
+    color:blanchedalmond;
+}
+.filtered{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items:center;
+    margin:5px;
+    font-size:15px;
+    font-weight:bolder;
+}
+.filtered-a{
+    height:50px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:5px;
+  }
+  .filtered-b{
+    border:3px #F2F2F2 solid;
+    border-radius:50px;
+    height:50px;
+    width:160px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:5px;
+  }
+
+.filtered-c{
+    border:3px #F2F2F2 solid;
+    border-radius:50px;
+    height:50px;
+    width:120px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:5px;
+}
+.filtered-b:hover{
+    background-color:#DEEBFF;
+}
+.filtered-c:hover{
+    background-color:#DEEBFF;
+}
+
