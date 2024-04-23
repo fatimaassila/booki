@@ -212,13 +212,11 @@ a:hover{
     flex-direction: column;
     flex-wrap: wrap;
 }
-
 .search_form {
     display: flex;
     flex-direction:row;
     margin:10px 10px 10px 0px;
-    
-  }
+}
 .search_label{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -228,7 +226,6 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-  
 }
 .search_input{
     font-size:15px;
@@ -241,7 +238,6 @@ a:hover{
     border-top: 1px #F2F2F2 solid;
     border-bottom:1px #F2F2F2 solid ;
 }
-
 .search_button{
     border-top-right-radius:10%;
     border-bottom-right-radius:10%;
@@ -256,49 +252,156 @@ a:hover{
 .filtered{
     display: flex;
     flex-direction:row;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content:flex-start;
     align-items:center;
     margin:5px;
     font-size:15px;
     font-weight:bolder;
 }
-.filtered-a{
+.filtered-title{
     height:50px;
     width: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    align-items: center;
-    margin:5px;
-  }
-  .filtered-b{
-    border:3px #F2F2F2 solid;
-    border-radius:50px;
-    height:50px;
-    width:160px;
-    display: flex;
+    display:flex;
     flex-direction:row;
     justify-content:space-evenly;
     align-items: center;
     margin:5px;
-  }
-
-.filtered-c{
+}
+  .filtered-btn{
     border:3px #F2F2F2 solid;
     border-radius:50px;
-    height:50px;
-    width:120px;
+    padding:0.5em 1em ;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
     align-items: center;
     margin:5px;
 }
-.filtered-b:hover{
+.filtered-btn:hover{
     background-color:#DEEBFF;
 }
-.filtered-c:hover{
-    background-color:#DEEBFF;
+.filtered-btn i{
+    margin-right:10px;
+}
+.sub-title-h{
+    font-size:15px;
+    margin:20px 20px 20px 0px;
+}
+#search_input{
+padding-left:30px;
 }
 
+
+.hebergements{
+    display: flex;
+    flex-direction:column;
+}
+.hebergements-title{
+    width:100%;
+    margin-bottom:20px;
+   }
+   .hebergement-cards{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+   }
+    
+.card-hebergement-content{
+    background-color: white;
+    border-radius: 20px;
+    width:30%;
+    height:260px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    box-shadow:0px 3px 15px rgba(0, 0, 0, 0.1);;
+    }
+  .card-hebergement-content img{
+    width: 95%;
+    height:155px;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px; 
+    object-fit:cover;
+    margin:2px;
+
+}
+.card-hebergement-txt{
+    display: flex;
+    flex-direction:column;
+    justify-content:start;
+    margin-left:20px;
+}
+
+.card-hebergement-title {
+    font-size: 16px;
+    margin-top:3px;
+    margin-bottom:7px;
+  }
+.card-hebergement-subtitle{
+    margin:2px;
+}
+.card-h-rating{
+   margin-left:20px;
+   margin-bottom:0px;
+}
+.hebergement-subtitle{
+    font-size: 19px;
+    font-weight: bolder;
+}
+.activities{
+    display: flex;
+    flex-direction:column;
+    border:2px solid transparent;
+    width:97%;
+    height:520px;
+    margin-top:30px;
+    margin-left:5px;
+    }
+.activities-title{
+    margin: 30px;
+}
+.card-activities{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card-activitie-content{
+width:23%;
+height:470px;
+display: flex;
+flex-direction:column;
+flex-wrap:wrap;
+border-radius:20px;
+box-shadow:0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+.card-activitie-content img{
+    width:100%;
+    height:400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    padding:0px;
+    margin: 0px;
+    box-shadow:0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+.card-activitie-title{
+height:0px;
+margin-bottom:15px;
+margin-left:25px;
+border-bottom-left-radius:20px;
+border-top-right-radius:20;
+}
+.footer{
+    background-color: var(--main-bg-color);
+    width:100%;
+    height:200px;
+    margin-top:100px;
+    margin-bottom:0PX;
+}
